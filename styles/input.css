@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* This says: go add to the components above these special classes. Components is for classes. */
+@layer components {
+    btn {
+        @apply py-2;
+    }
+}
